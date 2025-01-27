@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Parlour</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        header, main, footer {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            margin: 0 auto; /* Center the container */
+        }
+        main {
+            flex: 1; /* Take up available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .intro-image, .service-image {
+            width: 100%;
+            max-width: 300px; /* Adjust the maximum width as needed */
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .service-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .service-item {
+            text-align: center;
+        }
+        .service-item h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+            color: #ff69b4;
+        }
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beauty Parlour</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Welcome to Beauty Bliss</h2>
+            <p>Your one-stop destination for all beauty treatments and spa services. Experience luxury and relaxation like never before.</p>
+            <img src="image.jpg" alt="Introduction Image" class="intro-image">
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+            
+                <li>Hair Styling</li>
+                <li>Facial Treatments</li>
+                <li>Manicure & Pedicure</li>
+                <li>Body Spa</li>
+                <li>Makeup Services</li>
+            <div class="service-images">
+                <div class="service-item">
+                    <h3>Hair Styling</h3>
+                    <img src="hair.jpg" alt="Hair Styling" class="service-image">
+                </div>
+                <div class="service-item">
+                    <h3>Facial Treatment</h3>
+                    <img src="goldfacial.jpg" alt="Facial Treatment" class="service-image">
+                </div>
+                <div class="service-item">
+                    <h3>Manicure & Pedicure</h3>
+                    <img src="istockphoto.jpg" alt="Manicure & Pedicure" class="service-image">
+                </div>
+                <div class="service-item">
+                    <h3>Body Spa</h3>
+                    <img src="imagebody.jpg" alt="Body Spa" class="service-image">
+                </div>
+            </div>
+        </section>
+    </main>
+   
+
+
+    
+    
+</body>
+</html>
